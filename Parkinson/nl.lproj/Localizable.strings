@@ -1,0 +1,135 @@
+/* Format of detail text showing participant's average score on relevant activity, to be filled in with their average score */
+"APH_DASHBOARD_AVG_DETAIL" = "Gemiddelde: %@";
+
+/* Format of caption for correlation plot comparing indices of two series, to be filled in with the names of the series being compared. */
+"APH_DASHBOARD_CORRELATION_INFO" = "In deze grafiek wordt de index van uw %1$@ afgezet tegen de index van uw %2$@. Klik op de serienaam voor meer vergelijkingen.";
+
+/* Format of detail text showing participant's minimum and maximum scores on relevant activity, to be filled in with their minimum and maximum scores */
+"APH_DASHBOARD_MINMAX_DETAIL" = "Min.: %1$@  Max.: %2$@";
+
+/* Nav bar title for Memory activity view */
+"APH_MEMORY_NAV_TITLE" = "Geheugenactiviteit";
+
+/* Alert message when microphone access not enabled for this app when trying to perform Voice activity. */
+"APH_PHONATION_ENABLE_MIC_ALERT_MSG" = "U moet de app toegang geven tot de microfoon.";
+
+/* Nav bar title for Voice activity view */
+"APH_PHONATION_NAV_TITLE" = "Stemactiviteit";
+
+/* Title for Voice activity */
+"APH_PHONATION_STEP_TITLE" = "Stem";
+
+/* Warning regarding performing walking activity. */
+"APH_WALKING_CAUTION" = "Ga niet door als u zonder hulp van anderen niet goed kunt lopen.";
+
+/* Description of purpose of walking activity. */
+"APH_WALKING_DESCRIPTION" = "Bij deze activiteit worden uw manier van lopen en uw evenwicht gemeten. Dit zijn aspecten waarop de ziekte van Parkinson invloed kan hebben.";
+
+/* Nav bar title for Walking activity view */
+"APH_WALKING_NAV_TITLE" = "Loopactiviteit";
+
+/* Spoken instructions for the standing-still step of the walking activity, to be filled in with the number of seconds to stand still. */
+"APH_WALKING_STAND_STILL_SPOKEN_INSTRUCTION" = "Draai om en sta %@ seconden stil";
+
+/* Written instructions for the standing-still step of the walking activity, to be filled in with the number of seconds to stand still. */
+"APH_WALKING_STAND_STILL_TEXT_INSTRUCTION" = "Draai om en sta %@ seconden stil";
+
+/* Activity Completion */
+"Activity Completion" = "Voltooiing van activiteit";
+
+/* Timing option text in pre-activity medication timing survey. */
+"Another time" = "Nog een keer";
+
+/* Dashboard */
+"Dashboard" = "Dashboard";
+
+/* No comment provided by engineer. */
+"Data Correlations" = "Gegevenscorrelaties";
+
+/* No comment provided by engineer. */
+"Enrollment Survey" = "Deelname aan onderzoek";
+
+/* No comment provided by engineer. */
+"Gait" = "Lopen";
+
+/* Timing option text in pre-activity medication timing survey. */
+"I don't take Parkinson medications" = "Ik gebruik geen Parkinson-medicijnen";
+
+/* Timing option text in pre-activity medication timing survey. */
+"Immediately before Parkinson medication" = "Direct vóór inname Parkinson-medicijnen";
+
+/* Timing option text in pre-activity medication timing survey. */
+"Just after Parkinson medication (at your best)" = "Direct na inname Parkinson-medicijnen (optimale conditie)";
+
+/* No comment provided by engineer. */
+"Memory" = "Geheugen";
+
+/* No comment provided by engineer. */
+"Memory Activity" = "Geheugenactiviteit";
+
+/* No comment provided by engineer. */
+"My Thoughts" = "Mijn gedachten";
+
+/* No comment provided by engineer. */
+"Please perform the activites each day when you are at your lowest before you take your Parkinson medications, after your medications take effect, and then a third time during the day." = "We willen u vragen om de activiteiten drie keer per dag uit te voeren: op het moment dat u zich het slechtst voelt, maar voordat u uw Parkinson-medicijnen inneemt, op het moment dat de medicijnen gaan werken en tot slot op een derde moment in de loop van de dag.";
+
+/* No comment provided by engineer. */
+"Please take a look at Parkinson mPower, a research study app about Parkinson Disease.  Download it for iPhone at http://apple.co/1FO7Bsi" = "Kijk even rond in Parkinson mPower, een onderzoeks-app met betrekking tot de ziekte van Parkinson.  Download de app voor iPhone op http://apple.co/1FO7Bsi";
+
+/* No comment provided by engineer. */
+"Recent Activity" = "Recente activiteit";
+
+/* Steps */
+"Steps" = "Stappen";
+
+/* No comment provided by engineer. */
+"Study Feedback" = "Feedback over onderzoek";
+
+/* No comment provided by engineer. */
+"Tap Next to begin the test." = "Tik op 'Volgende' om de test te starten.";
+
+/* No comment provided by engineer. */
+"Tapping" = "Tikken";
+
+/* No comment provided by engineer. */
+"Tapping Activity" = "Tikactiviteit";
+
+/* Main text shown to participant upon completion of an activity. */
+"Thank You!" = "Dank u.";
+
+/* Detail text shown to participant upon completion of an activity. */
+"The results of this activity can be viewed on the dashboard" = "De resultaten van deze activiteit kunt u zien op het dashboard";
+
+/* Dashboard tooltip item info text for Steps in Parkinson */
+"This graph shows how many steps you took each day, according to your phone's motion sensors. Remember that for this number to be accurate, you should have the phone on you as frequently as possible." = "In deze grafiek ziet u hoeveel stappen u elke dag volgens de bewegingssensoren van uw telefoon hebt gelopen. Deze waarde is alleen nauwkeurig als u de telefoon zo veel mogelijk bij u draagt.";
+
+/* Dashboard tooltip item info text for Activity Completion in Parkinson */
+"This graph shows the percent of Today's activities that you completed. You can complete more of your tasks in the Activities tab." = "In deze grafiek ziet u het percentage van de activiteiten die u vandaag hebt voltooid. U kunt meer van uw taken voltooien op het tabblad 'Activiteiten'.";
+
+/* Dashboard tooltip item info text for Gait in Parkinson */
+"This plot combines several accelerometer-based measures for the Walking Activity. The length and position of each vertical bar represents the range of measures for a given day. Any differences in length or position over time reflect variations and trends in your Walking measure, which may reflect variations and trends in your symptoms." = "In deze grafiek worden verschillende metingen van de acceleratiemeter voor de loopactiviteit gecombineerd. De lengte en positie van de verticale staven geven de metingen voor een bepaalde dag aan. Eventuele verschillen in lengte of positie duiden op verschillen en trends in uw loopactiviteit, wat een indicatie van verschillen en trends in uw symptomen kan zijn.";
+
+/* Dashboard tooltip item info text for Voice in Parkinson */
+"This plot combines several microphone-based measures as a single score for the Voice Activity. The length and position of each vertical bar represents the range of measures for a given day. Any differences in length or position over time reflect variations and trends in your Voice measure, which may reflect variations and trends in your symptoms." = "In deze grafiek worden verschillende microfoonmetingen gecombineerd tot één score voor de stemactiviteit. De lengte en positie van de verticale staven geven de metingen voor een bepaalde dag aan. Eventuele verschillen in lengte of positie duiden op verschillen en trends in uw stemactiviteit, wat een indicatie van verschillen en trends in uw symptomen kan zijn.";
+
+/* Dashboard tooltip item info text for Memory in Parkinson */
+"This plot shows the score you received each day for the Memory Game. The length and position of each vertical bar represents the range of scores for a given day. Any differences in length or position over time reflect variations and trends in your score, which may reflect variations and trends in your symptoms." = "In dit diagram ziet u de score die u elke dag bij het geheugenspel hebt behaald. De lengte en positie van de verticale staven geven de scores voor een bepaalde dag aan. Eventuele verschillen in lengte of positie duiden op verschillen en trends in uw score, wat een indicatie van verschillen en trends in uw symptomen kan zijn.";
+
+/* Dashboard tooltip item info text for Tapping in Parkinson */
+"This plot shows your finger tapping speed each day as measured by the Tapping Interval Activity. The length and position of each vertical bar represents the range in the number of taps you made in 20 seconds for a given day. Any differences in length or position over time reflect variations and trends in your tapping speed, which may reflect variations and trends in your symptoms." = "In dit diagram ziet u voor elke dag uw vingertiksnelheid, zoals die is gemeten tijdens de activiteit 'Tikinterval'. De lengte en positie van de verticale staven geven het aantal tikken aan dat u op een bepaalde dag in twintig seconden hebt behaald. Eventuele verschillen in lengte of positie duiden op verschillen en trends in uw tiksnelheid, wat een indicatie van verschillen en trends in uw symptomen kan zijn.";
+
+/* No comment provided by engineer. */
+"Voice" = "Stem";
+
+/* No comment provided by engineer. */
+"Voice Activity" = "Stemactiviteit";
+
+/* No comment provided by engineer. */
+"Walking Activity" = "Loopactiviteit";
+
+/* Prompt for timing of medication in pre-activity medication timing survey. */
+"When are you performing this Activity?" = "Wanneer voert u deze activiteit uit?";
+
+/* Spoken message that the participant has completed the Walking activity. */
+"You have completed the activity." = "U hebt de activiteit voltooid.";
+

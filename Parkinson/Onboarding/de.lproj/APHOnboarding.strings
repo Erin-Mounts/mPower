@@ -1,27 +1,27 @@
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "4sK-U4-BAC"; */
+"4sK-U4-BAC.normalTitle" = "ja";
 
 /* Class = "UILabel"; text = "Do you live in the United States of America?"; ObjectID = "48z-iB-W2P"; */
-"48z-iB-W2P.text" = "Do you live in the United States of America?";
-
-/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "4sK-U4-BAC"; */
-"4sK-U4-BAC.normalTitle" = "Yes";
+"48z-iB-W2P.text" = "Leben Sie in den USA?";
 
 /* Class = "UIButton"; normalTitle = "No"; ObjectID = "74M-Uo-Egc"; */
-"74M-Uo-Egc.normalTitle" = "No";
+"74M-Uo-Egc.normalTitle" = "nein";
 
 /* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "AqU-JC-roc"; */
-"AqU-JC-roc.normalTitle" = "Yes";
+"AqU-JC-roc.normalTitle" = "ja";
 
 /* Class = "UILabel"; text = "Are you 18 or older?"; ObjectID = "Lit-9E-Lq9"; */
-"Lit-9E-Lq9.text" = "Are you 18 or older?";
+"Lit-9E-Lq9.text" = "Sind Sie volljährig?";
 
 /* Class = "UIButton"; normalTitle = "No"; ObjectID = "Mug-ig-11a"; */
-"Mug-ig-11a.normalTitle" = "No";
+"Mug-ig-11a.normalTitle" = "nein";
 
 /* Class = "UIButton"; normalTitle = "No"; ObjectID = "OUK-PX-qmv"; */
-"OUK-PX-qmv.normalTitle" = "No";
+"OUK-PX-qmv.normalTitle" = "nein";
 
 /* Class = "UILabel"; text = "Are you comfortable reading and writing on your iPhone in English?"; ObjectID = "oRB-tO-vMQ"; */
-"oRB-tO-vMQ.text" = "Are you comfortable reading and writing on your iPhone in English?";
+"oRB-tO-vMQ.text" = "Sind Sie ohne Schwierigkeiten in der Lage, auf Ihrem iPhone Deutsch zu lesen und zu schreiben?";
 
 /* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "wcr-9T-wJL"; */
-"wcr-9T-wJL.normalTitle" = "Yes";
+"wcr-9T-wJL.normalTitle" = "ja";
+

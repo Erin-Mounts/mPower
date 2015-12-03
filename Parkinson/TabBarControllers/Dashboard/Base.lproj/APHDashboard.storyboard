@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14E11f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Y3q-0i-ptk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Y3q-0i-ptk">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -12,13 +13,15 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="59" sectionHeaderHeight="22" sectionFooterHeight="22" id="ud1-7A-KLz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="nwf-1N-Azw">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <rect key="frame" x="0.0" y="64" width="320" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap and drag to rearrange your graphs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Faz-yo-q5x">
                                     <rect key="frame" x="15" y="9" width="290" height="25"/>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="25" id="0EF-ND-U0A"/>
                                     </constraints>
@@ -28,12 +31,14 @@
                                 </label>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WB9-JI-Ntv">
                                     <rect key="frame" x="0.0" y="43" width="320" height="1"/>
+                                    <animations/>
                                     <color key="backgroundColor" red="0.85098039219999999" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="1" id="ocb-CO-M5q"/>
                                     </constraints>
                                 </view>
                             </subviews>
+                            <animations/>
                             <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" secondItem="Faz-yo-q5x" secondAttribute="trailing" constant="15" id="CeT-5y-Mhi"/>
@@ -46,18 +51,23 @@
                         </view>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="APCDashboardEditTableViewCell" rowHeight="59" id="bXM-MT-fM8" customClass="APCDashboardEditTableViewCell">
+                                <rect key="frame" x="0.0" y="130" width="320" height="59"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bXM-MT-fM8" id="gUp-V7-jDX">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEt-gP-2TY">
                                             <rect key="frame" x="19" y="14" width="222" height="31"/>
+                                            <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <animations/>
                                 </tableViewCellContentView>
+                                <animations/>
                                 <connections>
                                     <outlet property="textLabel" destination="eEt-gP-2TY" id="xBO-y0-Ct6"/>
                                 </connections>
@@ -100,6 +110,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="sh5-im-XfD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="ah4-jJ-1tj" kind="relationship" relationship="rootViewController" id="PtN-Uf-Foz"/>
@@ -116,23 +127,26 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="40" sectionFooterHeight="22" id="YnC-lr-zWe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="separatorColor" red="0.85098039219999999" green="0.85098039219999999" blue="0.85098039219999999" alpha="1" colorSpace="calibratedRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="OS7-MJ-Zzz">
                             <rect key="frame" x="0.0" y="64" width="375" height="34"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
                             <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="APCDashboardProgressTableViewCell" rowHeight="198" id="iIM-FU-r1q" customClass="APCDashboardProgressTableViewCell">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                <rect key="frame" x="0.0" y="138" width="375" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iIM-FU-r1q" id="OXM-Vt-Xb9">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="198"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="saK-cD-Qs4" userLabel="Top Line">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                                            <animations/>
                                             <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="1" id="BRq-46-gjd"/>
@@ -140,6 +154,7 @@
                                         </view>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activity Completion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDj-xz-C8m">
                                             <rect key="frame" x="16" y="8" width="182" height="26"/>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="182" id="Uw9-Yc-ppT"/>
                                                 <constraint firstAttribute="height" constant="26" id="ypl-ne-3aW"/>
@@ -150,6 +165,7 @@
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today, February 17" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xN-0t-APl">
                                             <rect key="frame" x="16" y="38" width="303" height="21"/>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="PzS-C9-om8"/>
                                             </constraints>
@@ -159,6 +175,7 @@
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2A-Oh-ynC">
                                             <rect key="frame" x="198" y="8" width="44" height="27"/>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="44" id="eWc-zX-xEY"/>
                                                 <constraint firstAttribute="height" constant="27" id="u4r-q9-kDn"/>
@@ -173,6 +190,7 @@
                                         </button>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9QL-c1-rkB" customClass="APCCircularProgressView">
                                             <rect key="frame" x="140" y="74" width="97" height="97"/>
+                                            <animations/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="97" id="5hc-cl-cFM"/>
@@ -196,6 +214,7 @@
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ai1-yW-XTr" userLabel="Bottom View">
                                             <rect key="frame" x="0.0" y="191" width="375" height="7"/>
+                                            <animations/>
                                             <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="7" id="qMJ-gd-vK7"/>
@@ -203,12 +222,14 @@
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K7e-gR-jxT" userLabel="Bottom line">
                                             <rect key="frame" x="0.0" y="190" width="375" height="1"/>
+                                            <animations/>
                                             <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="1" id="AKf-D4-AQ2"/>
                                             </constraints>
                                         </view>
                                     </subviews>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstItem="oDj-xz-C8m" firstAttribute="leading" secondItem="OXM-Vt-Xb9" secondAttribute="leading" constant="16" id="0bS-Xl-mFG"/>
                                         <constraint firstItem="K7e-gR-jxT" firstAttribute="leading" secondItem="OXM-Vt-Xb9" secondAttribute="leading" id="1iH-EL-X78"/>
@@ -231,6 +252,7 @@
                                         <constraint firstAttribute="bottomMargin" secondItem="Ai1-yW-XTr" secondAttribute="bottom" constant="-8" id="uIF-g8-Y9p"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <animations/>
                                 <connections>
                                     <outlet property="infoButton" destination="x2A-Oh-ynC" id="VBx-ud-jRW"/>
                                     <outlet property="progressView" destination="9QL-c1-rkB" id="YXk-ji-jqs"/>
@@ -240,14 +262,15 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="APCDashboardLineGraphTableViewCell" rowHeight="225" id="QEd-B9-1V7" userLabel="APCDashboardGraphTableViewCell" customClass="APCDashboardGraphTableViewCell">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                                <rect key="frame" x="0.0" y="336" width="375" height="225"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QEd-B9-1V7" id="H4m-mE-6nc">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="225"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBr-AW-1qt" userLabel="Top Line">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                                            <animations/>
                                             <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="1" id="bQb-v5-3Te"/>
@@ -255,14 +278,17 @@
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Zg-Zn-gLE" customClass="APCLineGraphView">
                                             <rect key="frame" x="4" y="63" width="371" height="154"/>
+                                            <animations/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mnx-13-eWt" customClass="APCDiscreteGraphView">
                                             <rect key="frame" x="4" y="63" width="371" height="154"/>
+                                            <animations/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d2X-wq-8wN" userLabel="Tint View">
                                             <rect key="frame" x="0.0" y="1" width="4" height="217"/>
+                                            <animations/>
                                             <color key="backgroundColor" red="0.93725490199999995" green="0.2666666667" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="4" id="FvJ-Tf-xjN"/>
@@ -270,6 +296,7 @@
                                         </view>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3PS-Ja-Yr4" userLabel="Resize Button">
                                             <rect key="frame" x="335" y="14" width="30" height="30"/>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="30" id="2Um-lo-ldu"/>
                                                 <constraint firstAttribute="width" constant="30" id="GM7-97-Bwq"/>
@@ -283,6 +310,7 @@
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ri-Tf-gM4">
                                             <rect key="frame" x="16" y="8" width="182" height="26"/>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="26" id="8vX-xb-mZ7"/>
                                                 <constraint firstAttribute="width" constant="182" id="Lav-W0-eR2"/>
@@ -293,6 +321,7 @@
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Average Score: 222" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Bk-FK-8bK">
                                             <rect key="frame" x="16" y="38" width="303" height="21"/>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="21" id="Nbn-XT-bWl"/>
                                             </constraints>
@@ -302,6 +331,7 @@
                                         </label>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W0R-8m-HvR" userLabel="Bottom View">
                                             <rect key="frame" x="0.0" y="218" width="375" height="7"/>
+                                            <animations/>
                                             <color key="backgroundColor" red="0.97254901959999995" green="0.97254901959999995" blue="0.97254901959999995" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="7" id="MMK-cH-JmS"/>
@@ -309,6 +339,7 @@
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WsQ-8F-MNk" userLabel="Bottom line">
                                             <rect key="frame" x="0.0" y="217" width="375" height="1"/>
+                                            <animations/>
                                             <color key="backgroundColor" red="0.90980392160000001" green="0.90980392160000001" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="1" id="WIZ-g7-g00"/>
@@ -316,6 +347,7 @@
                                         </view>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ETi-5O-atC">
                                             <rect key="frame" x="198" y="8" width="44" height="27"/>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="44" id="AvB-L1-hHK"/>
                                                 <constraint firstAttribute="height" constant="27" id="ymW-Pl-fYo"/>
@@ -330,6 +362,7 @@
                                         </button>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Of-sT-n9y">
                                             <rect key="frame" x="87" y="37" width="25" height="25"/>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="25" id="1Hf-Gc-mlB"/>
                                                 <constraint firstAttribute="width" constant="25" id="S3j-ji-CkI"/>
@@ -337,6 +370,7 @@
                                         </imageView>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4F-Z8-afv">
                                             <rect key="frame" x="16" y="34" width="300" height="23"/>
+                                            <animations/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="300" id="0i8-Bn-DJV"/>
                                                 <constraint firstAttribute="height" constant="23" id="yqy-B6-Yd3"/>
@@ -349,6 +383,7 @@
                                             </connections>
                                         </button>
                                     </subviews>
+                                    <animations/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstItem="7Bk-FK-8bK" firstAttribute="leading" secondItem="9Of-sT-n9y" secondAttribute="trailing" constant="-96" id="12a-6G-e9b"/>
@@ -391,13 +426,14 @@
                                     </constraints>
                                     <variation key="default">
                                         <mask key="constraints">
-                                            <exclude reference="tq3-mH-qoh"/>
                                             <exclude reference="8iT-iD-01C"/>
-                                            <exclude reference="fTi-fv-9Wz"/>
+                                            <exclude reference="tq3-mH-qoh"/>
                                             <exclude reference="5ne-RH-q1N"/>
+                                            <exclude reference="fTi-fv-9Wz"/>
                                         </mask>
                                     </variation>
                                 </tableViewCellContentView>
+                                <animations/>
                                 <connections>
                                     <outlet property="averageImageView" destination="9Of-sT-n9y" id="k4n-yy-ZpE"/>
                                     <outlet property="discreteGraphView" destination="Mnx-13-eWt" id="zHz-U6-zmv"/>
@@ -439,6 +475,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Fe9-xv-TJR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

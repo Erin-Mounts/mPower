@@ -1,0 +1,135 @@
+/* Format of detail text showing participant's average score on relevant activity, to be filled in with their average score */
+"APH_DASHBOARD_AVG_DETAIL" = "Moyenne : %@";
+
+/* Format of caption for correlation plot comparing indices of two series, to be filled in with the names of the series being compared. */
+"APH_DASHBOARD_CORRELATION_INFO" = "Ce graphique trace l'indice de votre %1$@ par rapport à l'indice de votre %2$@. Pour plus de comparaisons, cliquez sur le nom de la série.";
+
+/* Format of detail text showing participant's minimum and maximum scores on relevant activity, to be filled in with their minimum and maximum scores */
+"APH_DASHBOARD_MINMAX_DETAIL" = "Min : %1$@  Max : %2$@";
+
+/* Nav bar title for Memory activity view */
+"APH_MEMORY_NAV_TITLE" = "Activité Mémoire";
+
+/* Alert message when microphone access not enabled for this app when trying to perform Voice activity. */
+"APH_PHONATION_ENABLE_MIC_ALERT_MSG" = "Vous devez autoriser l'accès au microphone.";
+
+/* Nav bar title for Voice activity view */
+"APH_PHONATION_NAV_TITLE" = "Activité Voix";
+
+/* Title for Voice activity */
+"APH_PHONATION_STEP_TITLE" = "Voix";
+
+/* Warning regarding performing walking activity. */
+"APH_WALKING_CAUTION" = "Ne poursuivez pas si vous ne pouvez pas marcher en toute sécurité sans assistance.";
+
+/* Description of purpose of walking activity. */
+"APH_WALKING_DESCRIPTION" = "Cette activité mesure votre allure (marche) et votre équilibre, lesquels peuvent être affectés par la maladie de Parkinson.";
+
+/* Nav bar title for Walking activity view */
+"APH_WALKING_NAV_TITLE" = "Activité Marche";
+
+/* Spoken instructions for the standing-still step of the walking activity, to be filled in with the number of seconds to stand still. */
+"APH_WALKING_STAND_STILL_SPOKEN_INSTRUCTION" = "Faites un tour sur vous-même et tenez-vous immobile pendant %@ secondes";
+
+/* Written instructions for the standing-still step of the walking activity, to be filled in with the number of seconds to stand still. */
+"APH_WALKING_STAND_STILL_TEXT_INSTRUCTION" = "Retournez-vous et tenez-vous immobile pendant %@ secondes";
+
+/* Activity Completion */
+"Activity Completion" = "Activité terminée";
+
+/* Timing option text in pre-activity medication timing survey. */
+"Another time" = "Encore une fois";
+
+/* Dashboard */
+"Dashboard" = "Tableau de bord";
+
+/* No comment provided by engineer. */
+"Data Correlations" = "Corrélations de données";
+
+/* No comment provided by engineer. */
+"Enrollment Survey" = "Enrollment Survey";
+
+/* No comment provided by engineer. */
+"Gait" = "Allure";
+
+/* Timing option text in pre-activity medication timing survey. */
+"I don't take Parkinson medications" = "Je ne prends pas de traitement antiparkinsonien";
+
+/* Timing option text in pre-activity medication timing survey. */
+"Immediately before Parkinson medication" = "Juste avant le traitement antiparkinsonien";
+
+/* Timing option text in pre-activity medication timing survey. */
+"Just after Parkinson medication (at your best)" = "Juste après le traitement antiparkinsonien (au meilleur de votre forme)";
+
+/* No comment provided by engineer. */
+"Memory" = "Mémoire";
+
+/* No comment provided by engineer. */
+"Memory Activity" = "Activité Mémoire";
+
+/* No comment provided by engineer. */
+"My Thoughts" = "Mon point de vue";
+
+/* No comment provided by engineer. */
+"Please perform the activites each day when you are at your lowest before you take your Parkinson medications, after your medications take effect, and then a third time during the day." = "Accomplissez ces activités tous les jours : avant de prendre vos médicaments antiparkinsoniens, après qu'ils ont fait effet et une troisième fois au cours de la journée.";
+
+/* No comment provided by engineer. */
+"Please take a look at Parkinson mPower, a research study app about Parkinson Disease.  Download it for iPhone at http://apple.co/1FO7Bsi" = "Jetez un coup d'œil à Parkinson mPower, une application d'étude de recherche sur la maladie de Parkinson.  Téléchargez-la pour iPhone à l'adresse http://apple.co/1FO7Bsi";
+
+/* No comment provided by engineer. */
+"Recent Activity" = "Activité récente";
+
+/* Steps */
+"Steps" = "Pas";
+
+/* No comment provided by engineer. */
+"Study Feedback" = "Study Feedback";
+
+/* No comment provided by engineer. */
+"Tap Next to begin the test." = "Appuyez sur Suivant pour commencer le test.";
+
+/* No comment provided by engineer. */
+"Tapping" = "Pression des doigts à l'écran";
+
+/* No comment provided by engineer. */
+"Tapping Activity" = "Activité Pression des doigts à l'écran";
+
+/* Main text shown to participant upon completion of an activity. */
+"Thank You!" = "Merci !";
+
+/* Detail text shown to participant upon completion of an activity. */
+"The results of this activity can be viewed on the dashboard" = "Les résultats de cette activité sont visibles dans votre tableau de bord";
+
+/* Dashboard tooltip item info text for Steps in Parkinson */
+"This graph shows how many steps you took each day, according to your phone's motion sensors. Remember that for this number to be accurate, you should have the phone on you as frequently as possible." = "Ce graphique affiche le nombre de pas que vous avez fait chaque jour, selon les capteurs de mouvements de votre téléphone. Veuillez noter que pour que ce chiffre soit le plus précis possible, il est nécessaire d'avoir votre téléphone sur vous le plus souvent possible;";
+
+/* Dashboard tooltip item info text for Activity Completion in Parkinson */
+"This graph shows the percent of Today's activities that you completed. You can complete more of your tasks in the Activities tab." = "Ce graphique affiche le pourcentage d'activités de la journée que vous avez terminées. Vous pouvez accomplir davantage d'activités, dans l'onglet Activités.";
+
+/* Dashboard tooltip item info text for Gait in Parkinson */
+"This plot combines several accelerometer-based measures for the Walking Activity. The length and position of each vertical bar represents the range of measures for a given day. Any differences in length or position over time reflect variations and trends in your Walking measure, which may reflect variations and trends in your symptoms." = "Ce graphique associe plusieurs mesures réalisées à l'aide d'un accéléromètre pour l'activité Marche. La longueur et la position de chaque barre verticale représente la plage de mesures pendant une journée donnée. Les différences de longueur ou de position dans le temps reflètent les variations et les tendances de mesure de votre marche, qui peuvent à leur tour refléter celles de vos symptômes.";
+
+/* Dashboard tooltip item info text for Voice in Parkinson */
+"This plot combines several microphone-based measures as a single score for the Voice Activity. The length and position of each vertical bar represents the range of measures for a given day. Any differences in length or position over time reflect variations and trends in your Voice measure, which may reflect variations and trends in your symptoms." = "Ce graphique associe plusieurs mesures réalisées à l'aide du microphone pour l'activité Vocale. La longueur et la position de chaque barre verticale représente la plage de mesures pendant une journée donnée. Les différences de longueur ou de position dans le temps reflètent les variations et les tendances de mesure de votre voix, qui peuvent à leur tour refléter celles de vos symptômes.";
+
+/* Dashboard tooltip item info text for Memory in Parkinson */
+"This plot shows the score you received each day for the Memory Game. The length and position of each vertical bar represents the range of scores for a given day. Any differences in length or position over time reflect variations and trends in your score, which may reflect variations and trends in your symptoms." = "Ce graphique affiche le résultat que vous avez obtenu chaque jour au Memo. La longueur et la position de chaque barre verticale représente la plage de résultats pendant une journée donnée. Les différences de longueur ou de position dans le temps reflètent les variations et les tendances de vos résultats, qui peuvent à leur tour refléter celles de vos symptômes.";
+
+/* Dashboard tooltip item info text for Tapping in Parkinson */
+"This plot shows your finger tapping speed each day as measured by the Tapping Interval Activity. The length and position of each vertical bar represents the range in the number of taps you made in 20 seconds for a given day. Any differences in length or position over time reflect variations and trends in your tapping speed, which may reflect variations and trends in your symptoms." = "Ce graphique affiche votre vitesse de toucher mesurée chaque jour lors de l'activité Intervalle des pressions à l'écran. La longueur et la position de chaque barre verticale représente la nombre de pressions des doigts à l'écran réalisés en 20 secondes pendant une journée donnée. Les différences de longueur ou de position dans le temps reflètent les variations et les tendances de votre vitesse de pression à l'écran, qui peuvent à leur tour refléter celles de vos symptômes.";
+
+/* No comment provided by engineer. */
+"Voice" = "Voix";
+
+/* No comment provided by engineer. */
+"Voice Activity" = "Activité Voix";
+
+/* No comment provided by engineer. */
+"Walking Activity" = "Activité Marche";
+
+/* Prompt for timing of medication in pre-activity medication timing survey. */
+"When are you performing this Activity?" = "Quand pratiquez-vous cette activité ?";
+
+/* Spoken message that the participant has completed the Walking activity. */
+"You have completed the activity." = "Vous avez terminé l'activité.";
+

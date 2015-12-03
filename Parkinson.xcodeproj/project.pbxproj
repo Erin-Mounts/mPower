@@ -83,6 +83,8 @@
 		80CBB11B1C0CE17800E50D06 /* APHTasksAndSchedules_NoM7.json in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB11D1C0CE17800E50D06 /* APHTasksAndSchedules_NoM7.json */; };
 		80CBB11E1C0CE19C00E50D06 /* PD_feedback.json in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB1201C0CE19C00E50D06 /* PD_feedback.json */; };
 		80CBB1211C0CE1A100E50D06 /* PD_mythoughts.json in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB1231C0CE1A100E50D06 /* PD_mythoughts.json */; };
+		80CBB17D1C0F9F5100E50D06 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB17F1C0F9F5100E50D06 /* Localizable.strings */; };
+		80CBB1821C0F9F5500E50D06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80CBB1841C0F9F5500E50D06 /* InfoPlist.strings */; };
 		A74615B31A98077D00323AD1 /* ConverterForPDScores.m in Sources */ = {isa = PBXBuildFile; fileRef = A74615B21A98077D00323AD1 /* ConverterForPDScores.m */; };
 		A781166F1A96BC9400CEC822 /* 00_Blank_to_Activities@2x.m4v in Resources */ = {isa = PBXBuildFile; fileRef = A78116601A96BC9400CEC822 /* 00_Blank_to_Activities@2x.m4v */; };
 		A78116701A96BC9400CEC822 /* 01_Activities_to_SensorData@2x.m4v in Resources */ = {isa = PBXBuildFile; fileRef = A78116611A96BC9400CEC822 /* 01_Activities_to_SensorData@2x.m4v */; };
@@ -347,6 +349,14 @@
 		80CBB11C1C0CE17800E50D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/APHTasksAndSchedules_NoM7.json; sourceTree = "<group>"; };
 		80CBB11F1C0CE19C00E50D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/PD_feedback.json; sourceTree = "<group>"; };
 		80CBB1221C0CE1A100E50D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = Base; path = Base.lproj/PD_mythoughts.json; sourceTree = "<group>"; };
+		80CBB17E1C0F9F5100E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		80CBB1831C0F9F5500E50D06 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1851C0F9FF600E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		80CBB1861C0F9FF700E50D06 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80CBB1871C0FA2B200E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		80CBB1881C0FA2B300E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APHDashboard.strings; sourceTree = "<group>"; };
+		80CBB1891C0FA2B400E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/APHOnboarding.strings; sourceTree = "<group>"; };
+		80CBB18A1C0FA2B400E50D06 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A74615B11A98077D00323AD1 /* ConverterForPDScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterForPDScores.h; sourceTree = "<group>"; };
 		A74615B21A98077D00323AD1 /* ConverterForPDScores.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterForPDScores.m; sourceTree = "<group>"; };
 		A78116601A96BC9400CEC822 /* 00_Blank_to_Activities@2x.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = "00_Blank_to_Activities@2x.m4v"; sourceTree = "<group>"; };
@@ -687,6 +697,8 @@
 		CFC2D2DA19A5417D00170E69 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				80CBB1841C0F9F5500E50D06 /* InfoPlist.strings */,
+				80CBB17F1C0F9F5100E50D06 /* Localizable.strings */,
 				F5241CA819AEA5110098A4DF /* Parkinson.entitlements */,
 				CFC2D2DB19A5417D00170E69 /* Info.plist */,
 				CFC2D2DC19A5417D00170E69 /* main.m */,
@@ -1017,6 +1029,7 @@
 				80CBB1181C0CE17200E50D06 /* APHTasksAndSchedules.json in Resources */,
 				A78116791A96BC9400CEC822 /* 10_PotentialBenifits@3x.m4v in Resources */,
 				80CBB0781C0CD9FA00E50D06 /* disease_information_top.jpg in Resources */,
+				80CBB17D1C0F9F5100E50D06 /* Localizable.strings in Resources */,
 				80CBB0A61C0CDFC200E50D06 /* 11withdrawing.html in Resources */,
 				F5C1DC2019D22E6F006527EA /* Main.storyboard in Resources */,
 				A781167C1A96BC9400CEC822 /* 13_RiskToPrivacy@3x.m4v in Resources */,
@@ -1041,6 +1054,7 @@
 				80CBB08A1C0CD9FA00E50D06 /* Sage_Bionetworks.jpg in Resources */,
 				80CBB0821C0CD9FA00E50D06 /* lifemap.jpg in Resources */,
 				80CBB11E1C0CE19C00E50D06 /* PD_feedback.json in Resources */,
+				80CBB1821C0F9F5500E50D06 /* InfoPlist.strings in Resources */,
 				A78116741A96BC9400CEC822 /* 12_IssuesToConside2@2x.m4v in Resources */,
 				A78116711A96BC9400CEC822 /* 02_SensorData_to_DataGathering@2x.m4v in Resources */,
 				80CBB0761C0CD9FA00E50D06 /* consent_section_PD.css in Resources */,
@@ -1172,6 +1186,7 @@
 				80CBAFA81C05395D00E50D06 /* Base */,
 				80CBAFB81C053AC300E50D06 /* fr */,
 				80CBAFBA1C053ACE00E50D06 /* de */,
+				80CBB1891C0FA2B400E50D06 /* nl */,
 			);
 			name = APHOnboarding.storyboard;
 			sourceTree = "<group>";
@@ -1182,6 +1197,7 @@
 				80CBAFB61C053A8900E50D06 /* Base */,
 				80CBAFB91C053AC400E50D06 /* fr */,
 				80CBAFBB1C053ACE00E50D06 /* de */,
+				80CBB1881C0FA2B300E50D06 /* nl */,
 			);
 			name = APHDashboard.storyboard;
 			sourceTree = "<group>";
@@ -1528,6 +1544,26 @@
 				80CBB1221C0CE1A100E50D06 /* Base */,
 			);
 			name = PD_mythoughts.json;
+			sourceTree = "<group>";
+		};
+		80CBB17F1C0F9F5100E50D06 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBB17E1C0F9F5100E50D06 /* de */,
+				80CBB1851C0F9FF600E50D06 /* fr */,
+				80CBB1871C0FA2B200E50D06 /* nl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		80CBB1841C0F9F5500E50D06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80CBB1831C0F9F5500E50D06 /* de */,
+				80CBB1861C0F9FF700E50D06 /* fr */,
+				80CBB18A1C0FA2B400E50D06 /* nl */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
