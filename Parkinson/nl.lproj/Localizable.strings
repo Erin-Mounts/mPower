@@ -40,6 +40,9 @@
 /* Timing option text in pre-activity medication timing survey. */
 "Another time" = "Nog een keer";
 
+/* No comment provided by engineer. */
+"Copyright Information" = "Copyrightgegevens";
+
 /* Dashboard */
 "Dashboard" = "Dashboard";
 
@@ -69,6 +72,12 @@
 
 /* No comment provided by engineer. */
 "My Thoughts" = "Mijn gedachten";
+
+/* No comment provided by engineer. */
+"PD Questionnaire" = "Vragenlijst Parkinson";
+
+/* No comment provided by engineer. */
+"PD Rating Scale" = "Beoordelingsschaal Parkinson";
 
 /* No comment provided by engineer. */
 "Please perform the activites each day when you are at your lowest before you take your Parkinson medications, after your medications take effect, and then a third time during the day." = "We willen u vragen om de activiteiten drie keer per dag uit te voeren: op het moment dat u zich het slechtst voelt, maar voordat u uw Parkinson-medicijnen inneemt, op het moment dat de medicijnen gaan werken en tot slot op een derde moment in de loop van de dag.";

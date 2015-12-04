@@ -1,0 +1,61 @@
+﻿
+{
+    "items": [
+        {
+            "section_title": "",
+            "row_items": [
+                          
+                          {
+                          "title":"Informationen über diese Studie",
+                          "details":"AboutStudy",
+                          "icon_image":"paperplus_icon",
+                          "tint_color" : "Blue"
+                          },
+                          
+                          {
+                          "title":"Wie funktioniert diese Studie?",
+                          "details":"howstudyworks",
+                          "icon_image":"rulerpencil_icon",
+                          "tint_color" : "purple"
+                          },
+                          
+                          {
+                          "title":"Wer ist teilnahmeberechtigt?",
+                          "details":"EligibleToParticipate",
+                          "icon_image":"clipboard_icon",
+                          "tint_color" : "green"
+                          },
+                          {
+                          "title":"Wer führt diese Studie durch?",
+                          "details":"whoisrunning",
+                          "icon_image":"stethescope_icon",
+                          "tint_color" : "yellow"
+                          },
+                          {
+                          "title":"Empfehlen Sie uns weiter",
+                          "details":"share",
+                          "icon_image":"share_icon",
+                          "tint_color" : "yellow"
+                          },
+                        {
+                            "title": "Leben mit der Parkinson-Krankheit",
+                            "details": "lifewithPD",
+                            "icon_image": "disease_icon",
+                            "tint_color": "appColor"
+                        },
+                        {
+                            "title": "Symptome",
+                            "details": "symptoms",
+                            "icon_image": "diagnostics_icon",
+                            "tint_color": "green"
+                        },
+                        {
+                            "title": "Online-Ressourcen",
+                            "details": "online_resources",
+                            "icon_image": "globe_icon",
+                            "tint_color": "gray"
+                        }
+            ]
+        }
+    ]
+}

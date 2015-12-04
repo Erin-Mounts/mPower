@@ -1,0 +1,173 @@
+﻿
+{
+    "documentProperties" :
+    {
+        "htmlDocument" : "PD_fullconsent",
+        "investigatorShortDescription": "Sage Bionetworks",
+        "investigatorLongDescription": "Sage Bionetworks und dessen Partner",
+        "htmlContent": "15sharing_rsch"
+    },
+    "quiz":
+    {
+        "questions":
+        [
+            {
+                "identifier": "instruction",
+                "prompt": "Verständnis",
+                "text": "Wir möchten kurz testen, ob Sie alles rund um diese Studie verstanden haben.",
+                "type": "instruction"
+            },
+            {
+                "identifier": "purpose",
+                "prompt": "Was ist der Zweck dieser Studie?",
+                "type": "singleChoiceText",
+                "textChoices":
+                [
+                 "Fluktuationen der Parkinson-Symptome verstehen",
+                 "Parkinson-Krankheit behandeln"
+                ],
+                "expectedAnswer": "0"
+            },
+            {
+                "identifier": "deidentified",
+                "prompt": "Mein Name wird zusammen mit meinen Studiendaten gespeichert.",
+                "type": "boolean",
+                "expectedAnswer": "false"
+            },
+            {
+                "identifier": "access",
+                "prompt": "Ich kann auswählen, ob meine codierten Studiendaten eng begrenzt oder breit gefächert weitergegeben werden.",
+                "type": "boolean",
+                "expectedAnswer": "true"
+            },
+            {
+                "identifier": "skipSurvey",
+                "prompt": "Ich darf Fragen der Umfrage nach Belieben übergehen.",
+                "type": "boolean",
+                "expectedAnswer": "true"
+            },
+            {
+                "identifier": "stopParticipating",
+                "prompt": "Ich kann meine Teilnahme jederzeit widerrufen.",
+                "type": "boolean",
+                "expectedAnswer": "true"
+            }
+        ],
+        "failureTitle": "Versuchen Sie es noch einmal.",
+        "failureMessage": "Leider haben Sie mindestens eine Frage falsch beantwortet. Sie können zum Anfang der Einführung zurückkehren, um weitere Informationen über die Studie zu erhalten.",
+        "successTitle": "Hervorragend!",
+        "successMessage": "Sie haben alle Fragen korrekt beantwortet. \nTippen Sie auf „Weiter“, um fortzufahren.",
+        "allowedFailures": "0"
+
+    },
+    "sections":
+    [
+     {
+         "sectionType" : "onlyInDocument",
+         "sectionHtmlContent" : "PD_fullconsent"
+     },
+     {
+         "sectionType" : "overview",
+         "sectionSummary" : "In dieser einfachen Einführung werden die Forschungsstudie und deren mögliche Auswirkungen auf Ihr Leben erläutert. Sie haben die Gelegenheit, Ihre Einwilligung zur Teilnahme an der Studie zu erteilen.",
+         "sectionHtmlContent" : "1welcome"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Wir testen Ihr Verständnis",
+         "sectionSummary": "Bevor Sie die Registrierung abschließen, müssen Sie verstehen, worum es bei der Studie geht und was sie beinhaltet.",
+        "sectionImage": "quiz_image",
+        "sectionHtmlContent" : "2quiz_headsup"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Aktivitäten",
+         "sectionSummary": "Um die Entwicklung Ihres Gesundheitszustands besser zu verstehen, werden wir Sie bitten, einfache Aktivitäten durchzuführen und Fragebögen auszufüllen.",
+         "sectionHtmlContent" : "3activities",
+         "sectionImage": "00_Blank_to_Activities",
+         "sectionAnimationUrl": "00_Blank_to_Activities"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Sensordaten",
+         "sectionSummary": "Ihre Einwilligung vorausgesetzt, werden im Rahmen dieser Studie auch Sensordaten von Ihrem iPhone bzw. von persönlichen Geräten erhoben.",
+         "sectionHtmlContent" : "4sensordata",
+         "sectionImage": "01_Activities_to_SensorData",
+         "sectionAnimationUrl":"01_Activities_to_SensorData"
+     },
+     {
+         "sectionType" : "dataGathering",
+         "sectionTitle": "Datenverarbeitung",
+         "sectionSummary" : "Ihre Studiendaten (Umfragen, Aktivitäten und Sensordaten) werden mit ähnlichen Daten von anderen Teilnehmern zusammengefasst.",
+         "sectionHtmlContent" : "5dataprocessing",
+         "sectionAnimationUrl":"02_SensorData_to_DataGathering"
+     },
+     {
+         "sectionType" : "privacy",
+         "sectionTitle": "Schutz Ihrer Daten",
+         "sectionSummary": "Wir werden bei all Ihren Studiendaten Ihren Namen durch einen zufällig erstellten Code ersetzen.  Anhand dieses Codes können keine Rückschlüsse auf Ihre Person gezogen werden. Um einen unbefugten Zugriff zu verhindern, werden die codierten Daten verschlüsselt und auf einem gesicherten Cloud-Server unter der Kontrolle von Sage Bionetworks (gemeinnützig) gespeichert.",
+         "sectionHtmlContent" : "6protectingdata"
+     },
+     {
+         "sectionType" : "dataUse",
+         "sectionTitle": "Nutzung und Übertragung der Daten",
+         "sectionSummary": "Ihre codierten Daten werden für Forschungszwecke genutzt. Sie werden auf eine Analyseplattform in den USA übertragen und dürfen mit Ihrer Einwilligung an qualifizierte Wissenschaftler aus aller Welt weitergegeben werden.",
+         "sectionHtmlContent" : "7datause"
+     },
+     {
+         "sectionType" : "timeCommitment",
+         "sectionTitle" : "Zeitaufwand",
+         "sectionSummary": "Diese Studie nimmt ca. 20 Minuten pro Tag in Anspruch.",
+         "sectionHtmlContent" : "8time"
+     },
+     {
+         "sectionType" : "studySurvey",
+         "sectionTitle" : "Studienumfrage",
+         "sectionSummary": "Wir werden Sie darum bitten, kurze wöchentliche und monatliche Umfragen über Ihre Symptome zu beantworten, um etwaige Veränderungen zu erfassen.",
+         "sectionHtmlContent" : "9study_survey"
+     },
+     {
+         "sectionType" : "studyTasks",
+         "sectionTitle" : "Studienaktivitäten",
+         "sectionSummary": "Wir werden Sie zudem auffordern, einfache Aktivitäten durchzuführen, z. B. einige Schritte zu gehen, während Sie Ihr iPhone halten bzw. nutzen.",
+         "sectionHtmlContent" : "10study_task"
+     },
+     {
+         "sectionType" : "withdrawing",
+         "sectionTitle" : "Abbruch",
+         "sectionSummary" : "Die Teilnahme an der Studie ist freiwillig. Sie können Ihre Einwilligung und Ihre Teilnahme jederzeit widerrufen.",
+         "sectionHtmlContent" : "11withdrawing"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Möglicher Nutzen",
+         "sectionSummary": "Durch Ihre Teilnahme könnten Sie Menschen dabei unterstützen, Parkinson-Symptome besser zu verstehen und besser mit ihnen umzugehen.  Auf persönlicher Ebene werden Sie in der Lage sein, Ihre eigenen Daten einzusehen und möglicherweise mehr über Trends bezüglich Ihres Gesundheitszustands zu erfahren.",
+         "sectionHtmlContent" : "12potentialbenefits1",
+         "sectionImage": "10_PotentialBenifits",
+         "sectionAnimationUrl":"10_PotentialBenifits"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Zu berücksichtigende Fragen",
+         "sectionSummary": "Diese Studie ist keine Behandlungsstudie.   Sie brauchen Fragen nicht zu beantworten, die Ihnen unangenehm sind.",
+         "sectionHtmlContent" : "13issues_survey",
+         "sectionImage": "11_IssuesToConsider1",
+         "sectionAnimationUrl":"11_IssuesToConsider1"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Zu berücksichtigende Fragen",
+         "sectionSummary": "Die Teilnahme an dieser Studie kann unterschiedlichste Gefühle hervorrufen.",
+         "sectionHtmlContent" : "14issues_mood",
+         "sectionImage": "12_IssuesToConsider2",
+         "sectionAnimationUrl":"12_IssuesToConsider2"
+     },
+     {
+         "sectionType" : "custom",
+         "sectionTitle": "Risiken im Hinblick auf die Privatsphäre",
+         "sectionSummary": "Ihre codierten Daten wie etwa Gesundheits- und Standortdaten werden in Länder weitergeleitet, in denen möglicherweise Datenschutzbestimmungen gelten, die von denen im Land Ihres Wohnsitzes abweichen.  Wir werden alles daran setzen, Ihre Daten zu schützen. Eine völlige Anonymität kann jedoch nicht garantiert werden.",
+         "sectionHtmlContent" : "15privacy_risk",
+         "sectionImage": "13_RiskToPrivacy",
+         "sectionAnimationUrl":"13_RiskToPrivacy"
+     }
+ ]
+}

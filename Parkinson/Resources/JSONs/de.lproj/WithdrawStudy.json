@@ -1,0 +1,24 @@
+﻿
+{
+    "options":
+    [
+     {
+     "option":"Diese Studie hat zu viel Zeit in Anspruch genommen.",
+     },
+     {
+     "option":"Es bringt mir nicht genug, weiterhin an dieser Studie teilzunehmen.",
+     },
+     {
+     "option":"Teile der Studie waren mir zu schwierig.",
+     },
+     {
+     "option":"Ich breche meine Teilnahme aus persönlichen Gründen ab, die nichts mit der Studie zu tun haben.",
+     },
+     {
+     "option":"Ich möchte die Frage nicht beantworten.",
+     },
+     {
+     "option":"Beschreiben Sie mit Ihren eigenen Worten, weshalb Sie Ihre Teilnahme beenden möchten.",
+     },
+    ]
+}

@@ -1,0 +1,46 @@
+﻿
+{
+    "disease_name":"mPower",
+    "from_date":"December 2014",
+    "to_date":"January 2015",
+    "logo_name": "logo_research_institute",
+    "blog_url": "http://sagebionetworkstest.blogspot.com/feeds/posts/default?alt=rss",
+    "questions":
+    [
+     {
+     "title":"Willkommen bei mPower",
+     "details":"Eine Forschungsstudie über die Parkinson-Krankheit",
+     },
+     
+     {
+     "title":"Informationen über diese Studie",
+     "details":"AboutStudy_intro",
+    
+     },
+     
+     {
+     "title":"Info über die App",
+     "details":"Bitte tippen Sie auf die folgende Abbildung, um eine kurze Videoeinführung über mPower zu sehen.",
+     "video_name" : "Intro",
+     },
+     
+     {
+     "title":"Wie funktioniert diese Studie?",
+     "details":"howstudyworks_intro",
+     
+     },
+     
+     {
+     "title":"Wie funktioniert diese Studie?",
+     "details":"feedback_intro",
+    
+     },
+     
+     {
+     "title":"Wer führt diese Studie durch?",
+     "details":"whoisrunning_intro",
+   
+     },
+     
+     ]
+}

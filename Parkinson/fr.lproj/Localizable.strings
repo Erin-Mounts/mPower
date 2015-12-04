@@ -40,6 +40,9 @@
 /* Timing option text in pre-activity medication timing survey. */
 "Another time" = "Encore une fois";
 
+/* No comment provided by engineer. */
+"Copyright Information" = "Informations sur le copyright";
+
 /* Dashboard */
 "Dashboard" = "Tableau de bord";
 
@@ -69,6 +72,12 @@
 
 /* No comment provided by engineer. */
 "My Thoughts" = "Mon point de vue";
+
+/* No comment provided by engineer. */
+"PD Questionnaire" = "Questionnaire sur la maladie de Parkinson";
+
+/* No comment provided by engineer. */
+"PD Rating Scale" = "Échelle de notation de la maladie de Parkinson";
 
 /* No comment provided by engineer. */
 "Please perform the activites each day when you are at your lowest before you take your Parkinson medications, after your medications take effect, and then a third time during the day." = "Accomplissez ces activités tous les jours : avant de prendre vos médicaments antiparkinsoniens, après qu'ils ont fait effet et une troisième fois au cours de la journée.";
